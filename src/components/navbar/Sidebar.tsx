@@ -46,12 +46,12 @@ const Sidebar = (props: SidebarProps) => {
             <div className="flex items-center justify-end transition-all
                 hover:bg-gray-50 rounded-lg p-2 
                 w-full mt-4">
-                <Link to={ROUTES.CONTACT_US}
+                <a href="#footer"
                     className="transition-all font-bold
                     flex items-center justify-center 
                     text-ferait-blue">
                     تماس با ما
-                </Link>
+                </a>
             </div>
         </div>
     )
