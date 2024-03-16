@@ -24,7 +24,11 @@ export default {
 
           bgBlue: {
             100: "#F9FEFF",
-          }
+          },
+
+          siteChoobBlue: "#03045E",
+          rasaBlue: "#0077B6",
+          avaGreen: "#4A7337",
         },
       },
     },
