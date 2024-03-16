@@ -74,7 +74,7 @@ const ItemsManager = (props: ItemsManagerProps) => {
                     <div className="flex items-center justify-center gap-2">
                         {
                             items.map((_, index) => (
-                                <div key={index} onCanPlay={() => setCurrentIndex(index)} className={`
+                                <div key={index} onClick={() => setCurrentIndex(index)} className={`
                                 transition-all w-3 h-3 bg-ferait-blue rounded-full cursor-pointer
                                 ${currentIndex === index ? "p-2" : "bg-opacity-50"}`}>
 
