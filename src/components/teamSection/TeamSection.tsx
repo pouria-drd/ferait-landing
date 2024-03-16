@@ -2,10 +2,10 @@ import TeamCard from "./TeamCard";
 import Mahdi from "./images/Mahdi.png";
 import Saeed from "./images/Saeed.png";
 import Malik from "./images/Malik.png";
-import Farhane from "./images/Farhane.png";
 import Fatema from "./images/Fatema.png";
-import Alireza from "./images/Alireza.png";
 import Pourya from "./images/Pourya.png";
+import Farhane from "./images/Farhane.png";
+import Alireza from "./images/Alireza.png";
 
 const TeamSection = () => {
     return (

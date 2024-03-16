@@ -1,8 +1,8 @@
-import FeraitIcon from "../assets/images/Ferait-logoo.png";
+import { Link } from "react-router-dom";
 import TelegramIcon from "./icons/TelegramIcon";
 import WhatsAppIcon from "./icons/WhatsAppIcon";
 import InstagramIcon from "./icons/InstagramIcon";
-import { Link } from "react-router-dom";
+import FeraitIcon from "../assets/images/Ferait-logoo.png";
 
 const Footer = () => {
     return (

@@ -3,7 +3,7 @@ import { ROUTES } from "../../router/routes";
 
 import Sidebar from "./Sidebar";
 import MenuIcon from "../icons/MenuIcon";
-import LanguageIcon from "../icons/LanguageIcon";
+// import LanguageIcon from "../icons/LanguageIcon";
 import FeraitLogoIcon from "../icons/FeraitLogoIcon";
 import { useState } from "react";
 
@@ -32,19 +32,19 @@ const Navbar = () => {
                 </button>
 
                 <div className="hidden lg:flex items-center justify-start gap-4">
-                    <Link to={ROUTES.CONTACT_US}
+                    <a href="#footer"
                         className="transition-all
                     flex items-center justify-center 
                     text-ferait-white-0 bg-ferait-blue hover:bg-ferait-black
                     text-lg font-peyda uppercase rounded-xl 
                     shadow-sm px-6 py-2 border md:py-2 md:px-6">
                         تماس با ما
-                    </Link>
+                    </a>
 
-                    <button className="text-ferait-gray hover:text-ferait-blue
+                    {/* <button className="text-ferait-gray hover:text-ferait-blue
                             transition-all cursor-pointer">
                         <LanguageIcon />
-                    </button>
+                    </button> */}
                 </div>
 
                 <div className="font-peyda-medium text-lg 
