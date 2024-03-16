@@ -1,0 +1,139 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+body {
+  background-color: #00ccfd;
+}
+
+.glass {
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scroll area */
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  background: #80848f;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 8px;
+  background: #00ccfd;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  border-radius: 8px;
+  background: #00ccfd;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Fonts area */
+
+@font-face {
+  font-family: "Bahij Nazanin";
+  src: url("../fonts/BahijNazanin/Bahij-Nazanin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iransans";
+  src: url("../fonts/Iransans/iransans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanWeb";
+  src: url("../fonts/IranYekan/IRANYekanWebRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "tanha";
+  src: url("../fonts/Tanha/Tanha-FD-WOL.woff2") format("woff2"),
+    url("../fonts/Tanha/Tanha-FD-WOL.woff") format("woff"),
+    url("../fonts/Tanha/Tanha-FD-WOL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRANYekanX";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRANYekanX/IRANYekanX-Regular.woff") format("woff"),
+    url("../fonts/IRANYekanX/IRANYekanX-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IRANYekanX";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/IRANYekanX/IRANYekanX-Bold.woff") format("woff"),
+    url("../fonts/IRANYekanX/IRANYekanX-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "satisfy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Satisfy/Satisfy-Regular.ttf") format("truetype");
+}
+
+.ss02 {
+  font-feature-settings: "ss02";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+}
+
+.r2l {
+  direction: rtl;
+}
+
+.l2r {
+  direction: ltr;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Peyda area */
+
+@font-face {
+  font-family: "Peyda Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Peyda/01-Standard/TTF/Peyda-Medium.ttf") format("truetype"),
+    url("../fonts/Peyda/woff/PeydaWeb-Medium.woff") format("woff"),
+    url("../fonts/Peyda/woff2/PeydaWeb-Medium.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "Peyda Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Peyda/01-Standard/TTF/Peyda-Regular.ttf")
+      format("truetype"),
+    url("../fonts/Peyda/woff/PeydaWeb-Regular.woff") format("woff"),
+    url("../fonts/Peyda/woff2/PeydaWeb-Regular.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "Peyda Regular";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Peyda/01-Standard/TTF/Peyda-SemiBold.ttf")
+      format("truetype"),
+    url("../fonts/Peyda/woff/PeydaWeb-SemiBold.woff") format("woff"),
+    url("../fonts/Peyda/woff2/PeydaWeb-SemiBold.woff2") format("truetype");
+}
+
+@font-face {
+  font-family: "Peyda Regular";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Peyda/01-Standard/TTF/Peyda-Bold.ttf") format("truetype"),
+    url("../fonts/Peyda/woff/PeydaWeb-Bold.woff") format("woff"),
+    url("../fonts/Peyda/woff2/PeydaWeb-Bold.woff2") format("truetype");
+}
