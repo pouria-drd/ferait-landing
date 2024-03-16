@@ -31,7 +31,7 @@ const ProductSectionItem = (props: ProductSectionItemProps) => {
             w-full h-full">
 
             <div className="relative w-1/2 h-60">
-                <img className="absolute bottom-14 left-5 z-10" src={props.img1SRC} alt="img" />
+                <img className="absolute bottom-14 left-10 z-10" src={props.img1SRC} alt="img" />
                 <img className="absolute" src={props.img2SRC} alt="img2" />
             </div>
 
